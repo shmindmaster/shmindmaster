@@ -1,6 +1,6 @@
 ## Sarosh Hussain
 
-I build AI systems that ship. Currently CTO at [Pendoah.ai](https://pendoah.ai), previously CIO at Perry Homes and 10 years across Accenture, PwC, Hitachi Consulting, and Credera/Omnicom — **428 projects, 115 clients, 15 sectors**.
+I build AI systems that ship. Currently CTO at [Pendoah.ai](https://pendoah.ai), previously CIO at Perry Homes and 10 years across Accenture, PwC, Hitachi Consulting, and Credera/Omnicom — **400+ projects, 100+ clients, 15 sectors**.
 
 ### Open source
 
