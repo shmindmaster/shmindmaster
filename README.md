@@ -1,19 +1,48 @@
 ## Sarosh Hussain
 
-I build AI systems that ship. Currently CTO at [Pendoah.ai](https://pendoah.ai), previously CIO at Perry Homes and 10 years across Accenture, PwC, Hitachi Consulting, and Credera/Omnicom — **400+ projects, 100+ clients, 15 sectors**.
+I build **trustworthy enterprise AI systems** and the developer infrastructure that makes agent work verifiable.
 
-### Open source
+**CTO & Partner** at [Pendoah](https://pendoah.ai) · Former **CIO**, Perry Homes · Director-level AI/cloud transformation at Accenture, PwC, and Omnicom/Credera.
 
-**[CrewScore](https://github.com/shmindmaster/crewscore)** · [crewscore.ai](https://crewscore.ai)
-A linter for AI agent system prompts. Checks 23 controls — human approval, injection defense, stop conditions, cost limits — offline, deterministic, no API key. Paste a prompt in the browser or gate it in CI.
+Thesis: production AI needs architecture *and* control planes—agent safety, exact evidence, governance, and delivery discipline—not demos.
 
-I validated it against two pinned public corpora and published the result even though it is unflattering: 83 system prompts from shipped products score a **median 10/100**. Coverage is not quality, and the README says so before you ask.
+---
 
-**[RepoContext](https://github.com/shmindmaster/repocontext)**
-Read-only MCP server that gives a coding agent commit-pinned, cited context across many local Git repositories. Every answer carries the SHA it came from, so the agent can be checked instead of trusted.
+### Open-source products (released)
 
-### What I actually do
+#### [CrewScore](https://github.com/shmindmaster/crewscore) · [crewscore.ai](https://crewscore.ai)
 
-Enterprise architecture and delivery for AI systems — the unglamorous part where a model has to survive a real production estate, a real budget, and a real audit. Most of my work is under NDA, which is why the numbers above are aggregates and there are no client logos on this page.
+**AI-agent prompt governance linter** — finds missing *written* safeguards in system prompts.
 
-Houston, TX · [saroshhussain.com](https://saroshhussain.com) · [LinkedIn](https://www.linkedin.com/in/saroshhussain/)
+- 23 published controls across 8 dimensions (human approval, injection defense, cost limits, stop conditions, auditability, and more)
+- Offline, deterministic, **no API key / no LLM**
+- Python CLI · GitHub Action · GitHub Marketplace · browser-local checker
+- Current release: **v0.6.11** (PyPI + GitHub Release)
+- Public corpus study: 356 prompts scored offline; among 83 production-labeled prompts, **median coverage 10/100** (coverage ≠ quality; methodology is published)
+
+`pip install crewscore` · Action: `shmindmaster/crewscore@v2`
+
+#### [GitPin](https://github.com/shmindmaster/gitpin) · [site](https://shmindmaster.github.io/gitpin/)
+
+**Agent-delivery assurance gate + local evidence MCP** — makes agent-authored claims point to exact committed source before merge.
+
+- Read-only, multi-repo, private/offline Git roots
+- 12 `pin.*` MCP tools: candidates → evidence packs → independent verification
+- Exact path, line, full commit SHA, content hash; dirty worktrees excluded from committed evidence
+- PR evidence gate (base-trusted policy, changed-path coverage)
+- Current release: **v0.6.2** on npm, GitHub Releases, GitHub Pages, and official MCP Registry (`io.github.shmindmaster/gitpin`)
+- Formerly RepoContext 0.3.x (superseded product lineage)
+
+`npx -y gitpin@0.6.2` · MCP identity: `io.github.shmindmaster/gitpin`
+
+---
+
+### What I do in production
+
+Enterprise AI architecture and delivery—agentic platforms, RAG/LLMOps, regulated workflows—and the unglamorous work of making systems survive real estates, budgets, and audits. Client identities under NDA.
+
+Open source is where I publish the **control-plane** pieces: written-control governance (CrewScore) and commit-pinned agent evidence (GitPin).
+
+Houston, TX · [saroshhussain.com](https://saroshhussain.com) · [LinkedIn](https://www.linkedin.com/in/saroshussain/) · [crewscore.ai](https://crewscore.ai)
+
+<!-- Reviewed 2026-08-05: products are released and publicly accessible; coordinated marketing announcements may still be pending. -->
