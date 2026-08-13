@@ -30,10 +30,10 @@ Thesis: production AI needs architecture *and* control planes—agent safety, ex
 - 12 `pin.*` MCP tools: candidates → evidence packs → independent verification
 - Exact path, line, full commit SHA, content hash; dirty worktrees excluded from committed evidence
 - PR evidence gate (base-trusted policy, changed-path coverage)
-- Current release: **v0.6.2** on npm, GitHub Releases, GitHub Pages, and official MCP Registry (`io.github.shmindmaster/gitpin`)
+- Current release: **v0.6.3** on npm, GitHub Releases, GitHub Pages, and official MCP Registry (`io.github.shmindmaster/gitpin`)
 - Formerly RepoContext 0.3.x (superseded product lineage)
 
-`npx -y gitpin@0.6.2` · MCP identity: `io.github.shmindmaster/gitpin`
+`npx -y gitpin@0.6.3` · MCP identity: `io.github.shmindmaster/gitpin`
 
 ---
 
