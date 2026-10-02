@@ -2,9 +2,8 @@
 
 I lead engineering teams that take AI products from a customer's problem to production, and I stay close to the code while they do.
 
-- **Head of Product Engineering and Forward Deployed Engineering** (CTO title) at Duckie.ai, an inquiry and finance agent SaaS business
 - **CTO and Partner** at Pendoah, leading a 20-person software and AI engineering group split across onshore and offshore teams
-- Fractional CTO for multiple venture-stage companies, each above $1M ARR (including Healify.ai and Duckie.ai)
+- **Fractional CTO** for multiple venture-stage startups, each past $1M ARR, including serving as **Head of Product Engineering and Forward Deployed Engineering** at one of them
 - Formerly **CIO** of Perry Homes (45-person organization, revenue from $800M to $1.71B) and a practice leader at Hitachi Consulting, Accenture, PwC and Credera
 
 Houston, TX.
