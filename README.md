@@ -5,7 +5,7 @@ I lead the engineering teams that take AI agents from a customer's problem to pr
 - **CTO and Partner at [Pendoah](https://pendoah.ai)** since October 2023: CTO oversight across a 100-person company, and I directly lead its 20-person software and AI engineering group across onshore and offshore teams
 - **30+ AI/ML systems in production, and 50+ built in the past three years**
 - Fractional CTO for multiple venture-stage startups, each past $1M ARR
-- Formerly **CIO of Perry Homes**, leading a 45-person technology organization during growth from $800M to $1.71B, and before that a director-level practice leader at PwC, Accenture, Credera and Hitachi Consulting
+- Formerly **CIO of Perry Homes**, overseeing a 45-person technology department at a homebuilder with 100+ employees and about 2,500 contractors during growth from $800M to $1.71B, and before that a director-level practice leader at PwC, Accenture, Credera and Hitachi Consulting
 - 23+ years in software, cloud and AI delivery · Houston, TX
 
 ---
