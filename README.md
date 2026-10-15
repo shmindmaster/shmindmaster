@@ -5,20 +5,20 @@ I lead the engineering teams that take AI agents from a customer's problem to pr
 - **CTO and Partner at [Pendoah](https://pendoah.ai)** since October 2023: CTO oversight across a 100-person company, and I directly lead its 20-person software and AI engineering group across onshore and offshore teams
 - **30+ AI/ML systems in production, and 50+ built in the past three years**
 - Fractional CTO for multiple venture-stage startups, each past $1M ARR
-- Formerly **CIO of Perry Homes**, leading a 45-person technology organization during growth from $800M to $1.71B, and before that a director-level practice leader at PwC, Accenture, Credera and Hitachi Consulting
+- Formerly **CIO of Perry Homes**, overseeing a 45-person technology department at a homebuilder with more than 100 employees and about 2,500 contractors, through growth from $800M to $1.71B, and before that a director-level practice leader at PwC, Accenture, Credera and Hitachi Consulting
 - 23+ years in software, cloud and AI delivery · Houston, TX
 
 ---
 
 ### Open source
 
-Three small tools that share one idea: an AI agent's output is a draft, and deterministic code with a re-checkable record decides what ships.
+One product built on one idea: an AI agent's output is a draft, and deterministic code with a re-checkable record decides what ships.
 
-| Project | What it does | See it |
+| Project | What it does | Read more |
 | --- | --- | --- |
-| **[Assay](https://github.com/shmindmaster/assay)** | A runnable control layer for AI agents: typed decisions, policy as data, a fail-closed effect broker, hash-chained receipts, and a mutation harness that proves every guard can fail. Clone and run in 60 seconds, no API key. | [2½-min film](https://saroshhussain.com/films/assay-the-agent-drafts-software-decides.mp4) |
-| **[CrewScore](https://github.com/shmindmaster/crewscore)** | Offline linter that checks an agent's system prompt against 23 published controls and fails CI when a required one, such as human approval, is missing. On [PyPI](https://pypi.org/project/crewscore/), as a GitHub Action, and in the browser at [crewscore.ai](https://crewscore.ai). | [90-sec film](https://saroshhussain.com/films/crewscore-one-sentence.mp4) |
-| **[GitPin](https://github.com/shmindmaster/gitpin)** | A read-only PR gate and local MCP server that makes agent-authored pull requests tie every claim to an exact committed line anyone can re-check with `git show`. On [npm](https://www.npmjs.com/package/gitpin) and the MCP Registry. | [90-sec film](https://saroshhussain.com/films/gitpin-the-gate-that-wants-evidence.mp4) |
+| **[Heatlot](https://github.com/shmindmaster/heatlot)** | Every certificate, checked against the record. AI verification of supplier certificates of conformance and mill test reports at receiving inspection: every finding is cited to its page and line, specification rules decide, text hidden in a supplier PDF cannot change the outcome, release takes a single-use authorization, and every step is a signed receipt an auditor can replay. CLI, HTTP API, MCP server and an inspection console; synthetic data, no API key. | [Research: what 356 AI system prompts write down](https://saroshhussain.com/blog/what-356-ai-system-prompts-write-down) |
+
+CrewScore and GitPin are archived and point to Heatlot. The prompt study CrewScore made possible is published as research.
 
 ### Also built
 
@@ -26,4 +26,4 @@ Three small tools that share one idea: an AI agent's output is a draft, and dete
 
 ---
 
-[saroshhussain.com](https://saroshhussain.com) · [LinkedIn](https://www.linkedin.com/in/saroshhussain/) · [Films and open source](https://saroshhussain.com/#open-source)
+[saroshhussain.com](https://saroshhussain.com) · [LinkedIn](https://www.linkedin.com/in/saroshhussain/) · [Open source](https://saroshhussain.com/#open-source)
