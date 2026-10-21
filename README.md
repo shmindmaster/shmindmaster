@@ -1,29 +1,40 @@
 ## Sarosh Hussain
 
-I lead the engineering teams that take AI agents from a customer's problem to production, and I stay close to the code while they do. Most of that work is governed AI for regulated industries such as healthcare, legal and financial services, where the model drafts and software decides what actually happens.
+Sitting CTO and former CIO. I ship production AI, and I'm still in the code while it happens.
 
-- **CTO and Partner at [Pendoah](https://pendoah.ai)** since October 2023: CTO oversight across a 100-person company, and I directly lead its 20-person software and AI engineering group across onshore and offshore teams
-- **30+ AI/ML systems in production, and 50+ built in the past three years**
-- Fractional CTO for multiple venture-stage startups, each past $1M ARR
-- Formerly **CIO of Perry Homes**, overseeing a 45-person technology department at a homebuilder with more than 100 employees and about 2,500 contractors, through growth from $800M to $1.71B, and before that a director-level practice leader at PwC, Accenture, Credera and Hitachi Consulting
-- 23+ years in software, cloud and AI delivery · Houston, TX
+Most of what I build is AI for work where a wrong answer costs money or creates a legal problem. The rule I build to: the model drafts, deterministic code decides what actually happens, and every decision leaves a record someone can check later.
+
+- **30+ AI/ML systems in production** in the past three years
+- **2,600+ pull requests and 14,000+ commits** across 28 repositories since October 2024
+- Former **CIO of Perry Homes** while revenue grew from $800M to $1.71B
+- Houston, TX
 
 ---
+
+### Products
+
+| Product | What it does |
+| --- | --- |
+| **[Tellgence](https://tellgence.ai)** | Realtime voice AI that answers a small business's phone, qualifies the caller, books the appointment and hands off to a person when it should. |
+| **[Lawli](https://lawli.ai)** | Legal self-help where every citation is locked to a source before an answer goes out, and filings pass a deterministic preflight check. |
+| **[LexAlign](https://lexalign.ai)** | Litigation evidence AI scoped to one matter at a time: answers cite exact source spans, and matter isolation is enforced in storage. |
+| **[ABACare](https://abacare.ai)** | Governed AI for clinic revenue cycle. AI drafts, payer rules run in code, and a named person approves anything a payer or parent sees. |
+| **[CoLedger](https://coledger.ai)** | Board packs for private equity where every figure links back to the portfolio company's ledger. |
+| **[SubOps](https://subops.ai)** | Pay recovery for delivery contractors: statements checked against contract pay tables, with every finding traced to its source. |
 
 ### Open source
 
-One product built on one idea: an AI agent's output is a draft, and deterministic code with a re-checkable record decides what ships.
-
-| Project | What it does | Read more |
+| Project | Status | What it does |
 | --- | --- | --- |
-| **[Heatlot](https://github.com/shmindmaster/heatlot)** | Every certificate, checked against the record. AI verification of supplier certificates of conformance and mill test reports at receiving inspection: every finding is cited to its page and line, specification rules decide, text hidden in a supplier PDF cannot change the outcome, release takes a single-use authorization, and every step is a signed receipt an auditor can replay. CLI, HTTP API, MCP server and an inspection console; synthetic data, no API key. | [Research: what 356 AI system prompts write down](https://saroshhussain.com/blog/what-356-ai-system-prompts-write-down) |
+| **[Heatlot](https://github.com/shmindmaster/heatlot)** | Active | The agent drafts, software decides, shown on certificate-of-conformance release. Cited extraction, a deterministic verifier, policy as data, an effect broker that refuses unsafe releases, hash-chained receipts with single-use release, and mutation-tested guards. Runs offline with no API key. |
+| **[AgentHub](https://github.com/shmindmaster/agenthub)** | Active | Control plane for coding agents. One policy is regenerated into each host's native instruction file, and skills, MCP servers and plugins stay in parity, with drift detection, across Claude Code, Codex, Cursor and other hosts. |
+| [CrewScore](https://github.com/shmindmaster/crewscore) | Archived | Offline linter that checks an agent's system prompt against 23 published controls and fails CI when a required one is missing. Its 356-prompt study is kept as the record. |
+| [GitPin](https://github.com/shmindmaster/gitpin) | Archived | Read-only PR gate and MCP server that ties every claim an agent makes about its change to an exact committed line, re-checkable with plain `git`. |
 
-CrewScore and GitPin are archived and point to Heatlot. The prompt study CrewScore made possible is published as research.
+### AI patterns I ship
 
-### Also built
-
-**Fieldbook** runs a forward-deployed engineering and solutions-architecture organization as a system of record. Each engagement is tied to the production outcome it promised, the evidence that proves it, its cost and what it left behind, with stage exit gates and a milestone ladder that will not advance without linked evidence. Vite, React 19, Hono on Node, Postgres and Drizzle. MVP; demo on request.
+Multi-agent handoffs · agentic RAG · text-to-SQL agents · realtime voice agents · deep research · human-in-the-loop approval · MCP servers · deterministic guardrails · evals that gate every release
 
 ---
 
-[saroshhussain.com](https://saroshhussain.com) · [LinkedIn](https://www.linkedin.com/in/saroshhussain/) · [Open source](https://saroshhussain.com/#open-source)
+[saroshhussain.com](https://saroshhussain.com) · [LinkedIn](https://www.linkedin.com/in/saroshhussain)
