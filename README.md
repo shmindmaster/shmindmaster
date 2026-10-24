@@ -1,8 +1,8 @@
 ## Sarosh Hussain
 
-CTO & Principal AI Architect. Hands-on in agentic AI, GenAI, RAG and voice AI, and still in the code while it ships.
+CTO & Principal AI Architect. I build agentic AI, RAG and voice AI systems that run in production, and lead the teams that keep them running.
 
-Most of what I build is governed AI for regulated industries, where a wrong answer costs money or creates a legal problem. The rule I build to: the model drafts, deterministic code decides what actually happens, and every decision leaves a record someone can check later.
+Most of it runs where mistakes are expensive, in healthcare, legal and finance, with the checks that let a business trust it in production.
 
 - **30+ AI/ML systems in production**, and 50+ built, in the past three years
 - **2,600+ pull requests and 14,000+ commits** across 28 repositories since October 2024
@@ -21,23 +21,18 @@ Most of what I build is governed AI for regulated industries, where a wrong answ
 | **CIO, Perry Homes** (Jun 2017 to Feb 2022) | Led a 45-person technology department plus a 30+ extended team for a homebuilder of about 1,300 employees and 2,500 contractors and suppliers. Retired about 70% of legacy applications and cut IT opex about 20% while revenue grew from $800M to $1.71B. |
 | **Earlier** | Principal at Credera · Director of Enterprise Architecture at PwC · Practice Director at Hitachi Consulting · Director of Technology Strategy at Accenture |
 
-### Products
+### Product
 
 | Product | What it does |
 | --- | --- |
-| **[Tellgence](https://tellgence.ai)** | Realtime voice AI that answers a small business's phone, qualifies the caller, books the appointment and hands off to a person when it should. |
-| **[Lawli](https://lawli.ai)** | Legal self-help where every citation is locked to a source before an answer goes out, and filings pass a deterministic preflight check. |
-| **[LexAlign](https://lexalign.ai)** | Litigation evidence AI scoped to one matter at a time: answers cite exact source spans, and matter isolation is enforced in storage. |
-| **[ABACare](https://abacare.ai)** | Governed AI for clinic revenue cycle. AI drafts, payer rules run in code, and a named person approves anything a payer or parent sees. |
-| **[CoLedger](https://coledger.ai)** | Board packs for private equity where every figure links back to the portfolio company's ledger. |
-| **[SubOps](https://subops.ai)** | Pay recovery for delivery contractors: statements checked against contract pay tables, with every finding traced to its source. |
+| **[Tellgence](https://tellgence.ai)** | Voice AI that answers a small business's phone, books the appointment and hands off to a person. |
 
 ### Open source
 
 | Project | Status | What it does |
 | --- | --- | --- |
-| **[Heatlot](https://github.com/shmindmaster/heatlot)** | Current | The agent drafts, software decides, shown on certificate-of-conformance release. Cited extraction, a deterministic verifier, policy as data, an effect broker that refuses unsafe releases, hash-chained receipts with single-use release, and mutation-tested guards. Runs offline with no API key. |
-| **[AgentHub](https://github.com/shmindmaster/agenthub)** | Active | Control plane for coding agents. One policy is regenerated into each host's native instruction file, and skills, MCP servers and plugins stay in parity, with drift detection, across Claude Code, Codex, Cursor and other hosts. |
+| **[AgentHub](https://github.com/shmindmaster/agenthub)** | Active | Keeps every AI coding agent on your machine (Claude Code, Codex, Cursor, Gemini CLI, Copilot CLI and more) running the same skills, MCP servers and policy, and tells you when one drifts. Apache-2.0. |
+| [Heatlot](https://github.com/shmindmaster/heatlot) | Pre-release | AI that checks supplier certificates and mill test reports at receiving inspection. |
 | [CrewScore](https://github.com/shmindmaster/crewscore) | Archived, Heatlot predecessor | Offline linter that checks an agent's system prompt against 23 published controls and fails CI when a required one is missing. Its 356-prompt study is kept as the record. |
 | [GitPin](https://github.com/shmindmaster/gitpin) | Archived, Heatlot predecessor | Read-only PR gate and MCP server that ties every claim an agent makes about its change to an exact committed line, re-checkable with plain `git`. |
 
