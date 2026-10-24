@@ -21,11 +21,12 @@ Most of it runs where mistakes are expensive, in healthcare, legal and finance, 
 | **CIO, Perry Homes** (Jun 2017 to Feb 2022) | Led a 45-person technology department plus a 30+ extended team for a homebuilder of about 1,300 employees and 2,500 contractors and suppliers. Retired about 70% of legacy applications and cut IT opex about 20% while revenue grew from $800M to $1.71B. |
 | **Earlier** | Principal at Credera · Director of Enterprise Architecture at PwC · Practice Director at Hitachi Consulting · Director of Technology Strategy at Accenture |
 
-### Product
+### Products
 
 | Product | What it does |
 | --- | --- |
-| **[Tellgence](https://tellgence.ai)** | Voice AI that answers a small business's phone, books the appointment and hands off to a person. |
+| **[ABACare](https://abacare.ai)** | Helps ABA therapy clinics get paid for every session they deliver, from authorization to claim. Preparing design-partner pilots. |
+| **[Tellgence](https://tellgence.ai)** (built at Pendoah) | Voice AI that answers a small business's phone, books the appointment and hands off to a person. |
 
 ### Open source
 
