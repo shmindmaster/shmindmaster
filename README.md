@@ -32,9 +32,9 @@ Most of it runs where mistakes are expensive, in healthcare, legal and finance, 
 | Project | Status | What it does |
 | --- | --- | --- |
 | **[AgentHub](https://github.com/shmindmaster/agenthub)** | Active | Keeps every AI coding agent on your machine (Claude Code, Codex, Cursor, Gemini CLI, Copilot CLI and more) running the same skills, MCP servers and policy, and tells you when one drifts. Apache-2.0. |
-| [Heatlot](https://github.com/shmindmaster/heatlot) | Pre-release | AI that checks supplier certificates and mill test reports at receiving inspection. |
-| [CrewScore](https://github.com/shmindmaster/crewscore) | Archived, Heatlot predecessor | Offline linter that checks an agent's system prompt against 23 published controls and fails CI when a required one is missing. Its 356-prompt study is kept as the record. |
-| [GitPin](https://github.com/shmindmaster/gitpin) | Archived, Heatlot predecessor | Read-only PR gate and MCP server that ties every claim an agent makes about its change to an exact committed line, re-checkable with plain `git`. |
+| [fakeplane](https://github.com/shmindmaster/fakeplane) | On [npm](https://www.npmjs.com/package/fakeplane) | Test AI agents against realistic fake support desks, Slack and Linear, with real-world failures, before they touch production. Apache-2.0. |
+| [replyonce](https://github.com/shmindmaster/replyonce) | On [npm](https://www.npmjs.com/package/replyonce) and [PyPI](https://pypi.org/project/replyonce/) | Stop AI agents from sending a customer the same reply twice. For Node.js and Python. Apache-2.0. |
+| [subtext-scan](https://github.com/shmindmaster/subtext-scan) | On [npm](https://www.npmjs.com/package/subtext-scan) | Catch hidden instructions in PDFs, Word files and web pages before an AI agent reads them. Apache-2.0. |
 
 ### AI patterns I ship
 
